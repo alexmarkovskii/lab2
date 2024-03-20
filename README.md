@@ -1,5 +1,5 @@
 [![CI/CD GitHub Actions](https://github.com/alexmarkovskii/lab2/actions/workflows/test-action.yml/badge.svg)](https://github.com/alexmarkovskii/lab2/actions/workflows/test-action.yml)
-[![Coverage Status](https://coveralls.io/repos/alexmarkovskii/lab2/badge.svg?branch=master)](https://coveralls.io/github/alexmarkovskii/lab2?branch=master)
+[![Coverage Status](https://coveralls.io/repos/alexmarkovskii/lab2/badge.svg?branch=main)](https://coveralls.io/github/alexmarkovskii/lab2?branch=main)
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=alexmarkovskii_lab2&metric=alert_status)](https://sonarcloud.io/project/overview?id=alexmarkovskii_lab2)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=alexmarkovskii_lab2&metric=bugs)](https://sonarcloud.io/summary/new_code?id=alexmarkovskii_lab2)
 [![Code smells](https://sonarcloud.io/api/project_badges/measure?project=alexmarkovskii_lab2&metric=code_smells)](https://sonarcloud.io/dashboard?id=alexmarkovskii_lab2)
