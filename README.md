@@ -1,8 +1,8 @@
-[![CI/CD GitHub Actions](https://github.com/seekerk/gtest/actions/workflows/test-action.yml/badge.svg)](https://github.com/seekerk/gtest/actions/workflows/test-action.yml)
-[![Coverage Status](https://coveralls.io/repos/seekerk/gtest/badge.svg?branch=master)](https://coveralls.io/github/seekerk/gtest?branch=master)
-[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=seekerk_gtest&metric=alert_status)](https://sonarcloud.io/dashboard?id=seekerk_gtest)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=seekerk_ctest&metric=bugs)](https://sonarcloud.io/summary/new_code?id=seekerk_ctest)
-[![Code smells](https://sonarcloud.io/api/project_badges/measure?project=seekerk_gtest&metric=code_smells)](https://sonarcloud.io/dashboard?id=seekerk_gtest)
+[![CI/CD GitHub Actions](https://github.com/alexmarkovskii/lab2/actions/workflows/test-action.yml/badge.svg)](https://github.com/alexmarkovskii/lab2/actions/workflows/test-action.yml)
+[![Coverage Status](https://coveralls.io/github/alexmarkovskii/lab2/badge.svg?branch=master)](https://coveralls.io/github/alexmarkovskii/lab2?branch=master)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=alexmarkovskii_lab2&metric=alert_status)](https://sonarcloud.io/project/overview?id=alexmarkovskii_lab2)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=project=alexmarkovskii_lab2&metric=bugs)](https://sonarcloud.io/summary/new_code?id=project=alexmarkovskii_lab2)
+[![Code smells](https://sonarcloud.io/api/project_badges/measure?project=project=alexmarkovskii_lab2&metric=code_smells)](https://sonarcloud.io/dashboard?id=project=alexmarkovskii_lab2)
 
 # Пример работы связки Qt + Google Test (gtest) + QtCreator
 
