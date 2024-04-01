@@ -12,34 +12,42 @@ extern "C" {
 #include "QuadraticEquation.h"
 }
 
+double roots[2];
+
 TEST(Quadratictest, two_roots){
-    ASSERT_EQ(solveQuadraticEquation(1, 4, -5)[0], -5);
-    ASSERT_EQ(solveQuadraticEquation(1, 4, -5)[1], 1);
+    solveQuadraticEquation(roots, 1, 4, -5);
+    ASSERT_EQ(roots[0], -5);
+    ASSERT_EQ(roots[1], 1);
 }
 
 TEST(Quadratictest, one_root){
-    ASSERT_EQ(solveQuadraticEquation(1, -6, 9)[0], 3);
-    ASSERT_EQ(solveQuadraticEquation(1, -6, 9)[1], 3);
+    solveQuadraticEquation(roots, 1, -6, 9);
+    ASSERT_EQ(roots[0], 3);
+    ASSERT_EQ(roots[1], 3);
 }
 
 TEST(Quadratictest, float_root){
-    ASSERT_EQ(solveQuadraticEquation(4, 6, 2)[0], -1);
-    ASSERT_EQ(solveQuadraticEquation(4, 6, 2)[1], -0.5);
+    solveQuadraticEquation(roots, 4, 6, 2);
+    ASSERT_EQ(roots[0], -1);
+    ASSERT_EQ(roots[1], -0.5);
 }
 
 TEST(Quadratictest, zero_discriminant){
-    ASSERT_EQ(solveQuadraticEquation(4, -5, 0)[0], 0);
-    ASSERT_EQ(solveQuadraticEquation(4, -5, 0)[1], 1.25);
+    solveQuadraticEquation(roots, 4, -5, 0);
+    ASSERT_EQ(roots[0], 0);
+    ASSERT_EQ(roots[1], 1.25);
 }
 
 TEST(Quadratictest, nan_roots){
-    ASSERT_TRUE(isnan(solveQuadraticEquation(4, 2, 4)[0]));
-    ASSERT_TRUE(isnan(solveQuadraticEquation(4, 2, 4)[1]));
+    solveQuadraticEquation(roots, 4, 2, 4);
+    ASSERT_TRUE(isnan(roots[0]));
+    ASSERT_TRUE(isnan(roots[1]));
 }
 
 TEST(Quadratictest, invalid_vars){
-    ASSERT_TRUE(isnan(solveQuadraticEquation(0, -5, 4)[0]));
-    ASSERT_TRUE(isnan(solveQuadraticEquation(0, -5, 4)[0]));
+    solveQuadraticEquation(roots, 0, -5, 4);
+    ASSERT_TRUE(isnan(roots[0]));
+    ASSERT_TRUE(isnan(roots[1]));
 }
 
 
