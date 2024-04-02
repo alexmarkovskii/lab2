@@ -15,7 +15,7 @@ extern "C" {
 TEST(Quadratictest, two_roots){
     double roots[2];
     solveQuadraticEquation(roots, 1, 4, -5);
-    ASSERT_EQ(roots[0], 22);
+    ASSERT_EQ(roots[0], -5);
     ASSERT_EQ(roots[1], 1);
 }
 
